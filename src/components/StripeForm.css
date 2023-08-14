@@ -1,0 +1,143 @@
+body {
+  background: #ddeefc;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  margin: auto;
+  border-radius: 20px;
+  width: 600px;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: #fff;
+  position: relative;
+  top: 0%;
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  z-index: 1;
+  padding: 0 30px;
+  border-radius: 10px;
+}
+.front {
+  position: relative;
+  transform: rotateY(0deg);
+ 
+}
+.back {
+  position: relative;
+  transform: rotateY(180deg);
+
+}
+.rccs__card {
+  height: 250px;
+  margin-top: 10;
+  margin-bottom: 10;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  width: 100%;
+
+  /* background: linear-gradient(
+   25deg
+, #986, #234); */
+}
+
+.front1 {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  top: -3vw;
+  z-index: 1;
+}
+
+.back1 {
+  transform: rotateY(360deg);
+  margin-bottom: 30px !important;
+}
+.App-cards-list {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.App-cards-list > * {
+  transform: scale(0.8);
+  margin-bottom: 30px !important;
+}
+
+.back3 {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* background-image: url(./images/6.jpeg); */
+}
+/* rccs-signature-background: repeating-linear-gradient(
+  0.1deg,
+  #fff 20%,
+  #fff 40%,
+  #fea 40%,
+  #fea 44%,
+  #fff 44%
+);
+rccs-default-background: linear-gradient(25deg, #d32121, #178a63);
+rccs-unknown-background: linear-gradient(25deg, rgb(160, 18, 101), #999);
+rccs-background-transition: 0.5s;
+rccs-animate-background: true; */
+
+.rccs__card--unknown > div {
+  background-image: url(https://d2aq2s4fglfv4y.cloudfront.net/ocen.jpeg);
+  box-shadow: 0 20px 60px 0 rgba(14, 42, 90, 0.55);
+}
+.btn {
+  width: 100%;
+  margin: 15px 0;
+}
+.col-sm-5 .card{
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} 
+.rccs {
+  margin: 0 auto;
+  perspective: 1000px;
+  width: 463px;
+  position: relative;
+  top: bottom;
+  bottom: 0%;
+  left: 0%;
+}
+.col-sm-11 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.col-sm-5 {
+  flex: 0 0 auto;
+  width: 49.666667%;
+}
